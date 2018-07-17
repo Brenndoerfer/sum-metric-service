@@ -1,8 +1,15 @@
 extends layout
 
 block content
-    h1= title
-    p Welcome to #{title}
+
+    .container
+        .row
+            .col-12
+                h1= title
+                p.mt-5
+                ul.post
+                ul.get
+
 
     script(src='/javascripts/dist/jquery.min.js')
     script(src='/javascripts/dist/public.bundle.js')

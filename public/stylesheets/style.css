@@ -5,4 +5,13 @@ body {
 a {
   color: #00B7FF; }
 
+.tableHead th {
+  text-align: center; }
+
+.sortable {
+  cursor: pointer; }
+
+.tableBody tr {
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

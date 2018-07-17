@@ -8,5 +8,6 @@ var pgp = pgPromise({
 });
 var cn = 'postgres://localhost:5432/demo';
 var db = pgp(cn);
+console.log('connected db');
 logger.info("Connected with DB [" + cn + "]");
 module.exports = db;
